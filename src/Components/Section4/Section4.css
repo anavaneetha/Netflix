@@ -1,0 +1,87 @@
+.section4 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding-left:  150px;
+  padding-right: 150px;
+  background-color: black;
+  flex-direction: row;
+}
+
+.section4 .para {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+.section4 .para p{
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+  }
+
+  .section4 .para h1{
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:47px;
+
+  }
+
+  .section4 .device{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    position: relative;
+    /* position: relative;
+    /* width: 100px;
+    height: 30px; */
+    /* margin-right: 400px;  */
+
+  }
+
+  .section4 .device img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 360px;
+    width: 500px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    position: absolute;
+
+  }
+
+  .section4 .device video{
+    /* display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 230px;
+    margin-top: 0px;
+    margin-bottom: 190px;
+    position: absolute;
+    object-fit: cover;  */
+
+    object-fit: cover; 
+  position: absolute;
+   height: 150px;
+  width: 270px; 
+  /* display: block; */
+   top: 0px;
+  left: 55px; 
+ 
+
+  }

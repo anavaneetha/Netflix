@@ -1,0 +1,49 @@
+
+
+.section3{
+    display:flex;
+    justify-content: center;
+    
+    justify-content: space-between;
+    gap: 50px;
+    padding: 90px 60px;
+    background-color: black;
+    
+    flex-direction: row;
+  }
+
+  .section3 .para {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .section3 .para p{
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 26px;
+
+
+  }
+  .section3 .para h1{
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size:50px;
+
+  }
+  .section3 .cell img{
+    
+    display:flex;
+    
+    align-items: flex-start;
+    height: 300px;
+    width: 400px;
+    margin-top: 0px;
+
+  }

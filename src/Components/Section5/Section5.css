@@ -1,0 +1,43 @@
+
+
+.section5{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 90px 60px;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+  }
+  .section5 .para {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .section5 .para h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:50px;
+
+  }
+  .section5 .para p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:22px;
+
+  }
+  .section5 .device img{
+    
+    display:flex;
+    
+    /* align-items: flex-start; */
+    height: 300px;
+    /* width: 300px; */
+    /* margin-top: 0px; */
+
+  }
